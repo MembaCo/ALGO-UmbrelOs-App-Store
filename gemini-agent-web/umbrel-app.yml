@@ -4,7 +4,7 @@ manifestVersion: 1
 id: "algo-store-gemini-trading-agent" 
 name: "Gemini Trading Agent"
 tagline: "Yapay zeka destekli, kişisel kripto ticaret botu."
-icon: "https://raw.githubusercontent.com/MembaCo/Gemini-Agent-Web/main/assets/icon.png"
+icon: "https://raw.githubusercontent.com/MembaCo/Gemini-Agent-Web/refs/heads/main/main/assets/icon.png"
 category: "Finance"
 version: "3.1.1"
 port: 8080 # docker-compose.yml'de belirlediğimiz port
@@ -20,9 +20,9 @@ submission: "https://github.com/MembaCo/Gemini-Agent-Web"
 repo: "https://github.com/MembaCo/Gemini-Agent-Web"
 support: "https://github.com/MembaCo/Gemini-Agent-Web/issues"
 gallery:
-  - "https://raw.githubusercontent.com/MembaCo/Gemini-Agent-Web/main/assets/gallery-1.png"
-  - "https://raw.githubusercontent.com/MembaCo/Gemini-Agent-Web/main/assets/gallery-2.png"
-  - "https://raw.githubusercontent.com/MembaCo/Gemini-Agent-Web/main/assets/gallery-3.png"
+  - "https://raw.githubusercontent.com/MembaCo/Gemini-Agent-Web/refs/heads/main/main/assets/gallery-1.png"
+  - "https://raw.githubusercontent.com/MembaCo/Gemini-Agent-Web/refs/heads/main/main/assets/gallery-2.png"
+  - "https://raw.githubusercontent.com/MembaCo/Gemini-Agent-Web/refs/heads/main/main/assets/gallery-3.png"
 
 composeFile: "docker-compose.yml" 
 
