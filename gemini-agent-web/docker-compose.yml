@@ -1,21 +1,21 @@
-# docker-compose.yml
+# ALGO-UmbrelOs-App-Store/algo-store-gemini-trading-agent/docker-compose.yml
 # @author: Memba Co.
 
 version: '3.8'
 
 services:
-  # Tek ve Birleşik Uygulama Servisi
   gemini-agent:
-    # Önceden derlenmiş Docker imajını Docker Hub veya başka bir registry'den çek.
-    image: https://github.com/MembaCo/Gemini-Agent-Web:latest
+    # ARTIK BU SATIRI KULLANIYORUZ:
+    image: ghcr.io/membaco/gemini-trading-agent:latest # DEĞİŞİKLİK: İmaj adı 'gemini-agent-web' yerine 'gemini-trading-agent' olabilir, GHCR'de nasıl isimlendirdiğinize dikkat edin. Yukarıdaki yml 'gemini-agent-web' olarak isimlendirir.
+    
+    # BU SATIRI SİLİYORUZ:
+    # build: . 
+    
     restart: unless-stopped
     
-    # Veritabanı dosyalarını içeren 'data' klasörünü kalıcı hale getirir.
-    # NOT: Kalıcı veri klasörü için "volumes" bölümü aynı kalabilir.
     volumes:
       - ./data:/app/data
       
-    # Port yönlendirmesi aynı kalır.
     ports:
       - "8080:8000"
       
