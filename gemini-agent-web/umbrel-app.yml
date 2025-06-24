@@ -1,6 +1,7 @@
 # umbrel-app.yml
 manifestVersion: 1
-id: "gemini-trading-agent"
+# DÜZELTME: ID, mağaza kimliği olan 'algo-store' ile başlamalıdır.
+id: "algo-store-gemini-trading-agent" 
 name: "Gemini Trading Agent"
 tagline: "Yapay zeka destekli, kişisel kripto ticaret botu."
 icon: "https://raw.githubusercontent.com/MembaCo/Gemini-Agent-Web/main/assets/icon.png"
