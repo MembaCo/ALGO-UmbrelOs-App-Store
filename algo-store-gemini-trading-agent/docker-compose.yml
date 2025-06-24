@@ -6,7 +6,7 @@ version: '3.8'
 services:
   gemini-agent:
     # ARTIK BU SATIRI KULLANIYORUZ:
-    image: ghcr.io/membaco/gemini-trading-agent:latest # DEĞİŞİKLİK: İmaj adı 'gemini-agent-web' yerine 'gemini-trading-agent' olabilir, GHCR'de nasıl isimlendirdiğinize dikkat edin. Yukarıdaki yml 'gemini-agent-web' olarak isimlendirir.
+    image: ghcr.io/membaco/gemini-agent-web:latest # DEĞİŞİKLİK: İmaj adı 'gemini-agent-web' yerine 'gemini-trading-agent' olabilir, GHCR'de nasıl isimlendirdiğinize dikkat edin. Yukarıdaki yml 'gemini-agent-web' olarak isimlendirir.
     
     # BU SATIRI SİLİYORUZ:
     # build: . 
